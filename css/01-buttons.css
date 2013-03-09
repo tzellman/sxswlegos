@@ -6,3 +6,52 @@
 @import url("_layout.css");
 
 /* Default styles */
+
+
+/*Create a button style with 5 different colors*/
+/*Create 4 different buttons sizes*/
+/*Create button styles that can be applied to span, a, div, input and button elements*/
+
+.btn, button{
+    background-color: blue;
+    padding: 5px 10px 5px 10px;
+    font-size: 1em;
+    color: white;
+    border-radius: 10px;
+}
+
+.btn-large{
+    padding: 10px 20px 10px 20px;
+    font-size: 1.2em;
+    border-radius: 15px;
+}
+.btn-small{
+    padding: 3px 6px 3px 6px;
+    font-size: .8em;
+    border-radius: 8px;
+}
+.btn-mini{
+    padding: 2px 4px 2px 4px;
+    font-size: .5em;
+    border-radius: 5px;
+}
+
+
+.btn-success{
+    background-color: seagreen;
+}
+.btn-warn{
+    background-color: orange;
+}
+.btn-danger{
+    background-color: firebrick;
+}
+.btn-boring{
+    background-color: lightgrey;
+    color: #000000;
+}
+
+a.btn{
+    text-decoration: none;
+}
+
